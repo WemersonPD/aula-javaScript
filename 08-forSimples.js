@@ -9,7 +9,7 @@
 
 // Sintaxe:
     // for(inicio; fim; passo) {
-        // comandos
+        // comandos a serem repetidos por laço
     // }
 
     // inicio: 
@@ -57,5 +57,5 @@
 
 // For avançado:
     // Utiliando brake e/ou continue - Sera visto na aula 10 sobre break e continue.
-    // Utilizando for..of (Parecido com o for de python) - Será visto na aula 10 sobre lista.
-    // Utilizando for..in - Será visto na aula 10 sobre lista.
+    // Utilizando for..of (Parecido com o for de python) - Será visto na aula 11 sobre lista.
+    // Utilizando for..in - Será visto na aula 11 sobre lista.
