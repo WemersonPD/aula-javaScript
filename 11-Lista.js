@@ -19,16 +19,22 @@ let frutas = ['maça', 'banana'];
 
 
 // Metodos:
-    // Pegar a quantidade de elemtos do array.
+    // Removendo o primeiro elemento do lsita:
+    frutas.shift() //Caso você der um console.log() aqui, será possível ver o elemento que é removido, ou atém mesmo salvar o elemento em uma variável.
+
+    // Adicionar valor(es) no inicio da lista
+    frutas.unshift('maça', 'manga', 'uva') //Possível add 1 ou mais elementos ao inicio
+
+    // Pegar a quantidade de elemtos da lista.
     console.log(frutas.length)
 
     // Atualiza a lista e adicionar um valor ao final.
     frutas.push('Morango');
-    console.log(frutas);
+
 
     // Atualiza a lista e remove um valor no final.
     frutas.pop();
-    console.log(frutas);
+
 
     // Acessar elemto do lista por indice.
     console.log(frutas[1]); //Acessando o primeiro elemento da lista
@@ -46,7 +52,7 @@ let frutas = ['maça', 'banana'];
     let posicao = frutas.indexOf('maça'); //Pegando o elemento pela posição
     // splice(pos, quantidade) //Posição do elemento que será deletado, quantidade de elementos a serem deletados a partir da posição inicial informada
     frutas.splice(posicao, 1); //Remove o elemento pelo indice que pegamos no passo anterior, informando quantos elementos iramos excluir.
-    console.log(frutas);
+
 
     // Copiar array
     frutas = ['maça', 'banana'];
@@ -66,8 +72,8 @@ let frutas = ['maça', 'banana'];
 
     // 2 - Pegando os indices da lista (for..in)
     // Obs: Seria melhor utilizar o forEach (aula 12)
-    for (let indiceFruta in frutas) {
-        console.log(`Indice da fruta ${frutas[indiceFruta]} é ${indiceFruta}`)
+    for (let indice in frutas) {
+        console.log(`Indice da fruta ${frutas[indice]} é ${indice}`)
     }
     console.log('Fim do exemplo 2 \n');
 
