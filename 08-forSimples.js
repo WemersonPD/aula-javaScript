@@ -31,19 +31,19 @@
     for(let iterador = 1; iterador <= 10; iterador++) {
         console.log(iterador);
     }
-    console.log('fim do exemplo 1');
+    console.log('fim do exemplo 1\n');
 
     // 2 - Fazendo laço de 10 a 1.
-    for(let itador = 10; itador >= 1; itador--) {
-        console.log(itador);
+    for(let iterador = 10; iterador >= 1; iterador--) {
+        console.log(iterador);
     } 
-    console.log('fim do exemplo 2');
+    console.log('fim do exemplo 2\n');
 
     // 3 - Exibindo apenas número pares entre 0 a 10.
     for(let iterador = 0; iterador <= 10; iterador += 2) { //Desta forma poupamos de um if / else.
         console.log(iterador);
     }
-    console.log('fim do exemplo 3');
+    console.log('fim do exemplo 3\n');
 
     // 3 - números impares entre 0 a 10 (utilizando if apenas)
     for(let iterador = 0; iterador <= 10; iterador++) {
@@ -57,5 +57,5 @@
 
 // For avançado:
     // Utiliando brake e/ou continue - Sera visto na aula 10 sobre break e continue.
-    // Utilizando for..of (Parecido com o for de python) - Será visto na aula 11 sobre lista.
-    // Utilizando for..in - Será visto na aula 11 sobre lista.
+    // Utilizando for..of (Parecido com o for de python) - Será visto na aula 11 sobre lista, exemplo prático 1.
+    // Utilizando for..in - Será visto na aula 11 sobre lista, exemplo prático 2.
